@@ -18,7 +18,8 @@ public class ShoppingCart : IDisplay
    
     public func displayData() -> String
     {
-        if orderDetails.isEmpty {
+        if orderDetails.isEmpty
+        {
             return "Shopping Cart Empty";
         }
         
